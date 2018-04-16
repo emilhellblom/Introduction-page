@@ -1,0 +1,10 @@
+.about {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  align-content: center;
+  text-align: center
+}

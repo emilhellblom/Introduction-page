@@ -1,0 +1,10 @@
+.navbar {
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  color: #ffffff;
+}
+
+.navbar a {
+  color: white;
+}

@@ -1,0 +1,9 @@
+.Typist {
+  color: white;
+  font-size: 50px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
