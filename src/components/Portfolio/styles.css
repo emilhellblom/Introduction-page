@@ -1,0 +1,84 @@
+.portfolio {
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    align-content: space-between;
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.robofriends {
+    margin-bottom: 10vh;
+}
+
+.react-quiz, .robofriends {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+
+.robofriends-content, .quiz-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    padding: 0 5vw;
+}
+
+.robofriends-content h2, .quiz-content h2 {
+    font-size: 250%;
+}
+
+.image {
+    height: auto;
+    width: 200%;
+    max-width: 400px;
+}
+
+.link {
+    z-index: 2;
+}
+
+@media only screen and (max-width: 600px) {
+    .portfolio {
+        height: 100%;
+    }
+
+    .robofriends {
+            margin-bottom: 10vh;
+    }
+        
+    .react-quiz, .robofriends {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;        
+    }
+
+    .robofriends-content h2, .quiz-content h2 {
+        font-size: 150%;
+        text-align: center;
+    }
+
+    .robofriends-content, .quiz-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 5vw;
+        width: 100%;
+    }
+
+    .image {
+        height: auto;
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .link {
+        z-index: 3;
+    }
+}

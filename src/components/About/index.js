@@ -1,4 +1,4 @@
-import React,  { Component } from 'react';
+import React from 'react';
 import './styles.css';
 
 export const About = () => (
@@ -12,4 +12,4 @@ export const About = () => (
     <p className='about-content'>Id be remiss to not mention my love for technology and my current career choices. I, as many of my generation, fell for technology at a very early age. Me and my dad started building our own high-tower computer rigs when I was about 8 years old, the first computer we build for me had the old MS NT 3.1 operating system and I remember the thrill of having my own computer in my room. After that I was hooked, while I still enjoyed my old Playstation, the computer was the center of my attention. When I was around 12 I bought my own first chassi and then every Christmas and birthday I would wish for new parts, first to fill it up and later to replace the dated ones. I would always kinda be one or two steps behind on the specs, but I would do my best to push the computer to handle what ever the latest game at the time was. I was very much a learn by doing kind of guy, and I would have to track down new ways to solve new problems all the time (and sometimes to solve old problems as well) but it was always just for fun. While I had dabbled in to coding on and off, trying out some html and some python through the years I never actually considered it as a career for some reason, it was always just a hobby for me. Until a new friend introduced me to the wonders of programming, now in my mid twenties, and holy moly am I sorry I didn’t figure this out earlier. Now most of my free time go to everything that has to do with programming. While I still game on occasion with my friends most of my time on a computer is spent on either learning more about coding or just making stuff for the fun of it.</p>
     <p className='about-content'>So here I am, 24 almost 25, and ready to kickstart my new career in coding!</p>
   </div>
-)
+);

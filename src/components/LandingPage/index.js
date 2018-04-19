@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import Typist from 'react-typist';
+import Typing from 'react-typing-animation';
 import './styles.css';
+
 
 class Home extends Component {
   render() {
     return (
-      <Typist>
-        Hey! I'm Emil Hellblom. BLADIBLABLABLA
-        Blablabla
-      </Typist>  
+      <div className='home'>
+        <Typing className='intro'>
+          Hi, and welcome to my website!
+        </Typing>
+      </div>
     );
   }
 }

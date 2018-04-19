@@ -2,11 +2,13 @@
     width: 70vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     color: white;
-    align-content: center;
-    text-align: center
+    text-align: center;
+    margin-top: 8vh;
+  }
+
+  .interests-header {
+      text-align: center;
   }
 
   .image {
@@ -14,3 +16,24 @@
       width: 60%;
       max-width: 500px;
   }
+  .hockey,.movies,.gaming {
+      border-bottom: 2px solid black;
+      z-index: 2;
+      margin-bottom: 2vh;
+  }
+
+  .hockey {
+      border-top: 2px solid black;
+      padding-top: 2vh;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .interests-header {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .hockey-header, .movies-header, .gaming-header {
+        font-size: 2rem;
+    }
+}

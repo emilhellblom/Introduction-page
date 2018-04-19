@@ -1,9 +1,16 @@
-.Typist {
+.home {
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro {
+  padding-top: 20vh;
   color: white;
   font-size: 50px;
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
