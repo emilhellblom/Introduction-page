@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './styles.css';
-import { Icon } from 'react-materialize'
+import Icon from '../../data/icon.png'
 import { SocialIcon } from 'react-social-icons';
 import { Link } from 'react-router-dom';
 
 const NavBar = ({toggleNavBar, expanded}) => (
   <div className='nav'>
-    <div onClick={ toggleNavBar } className='nav-icon'><Icon medium>menu</Icon></div> 
+    <div onClick={ toggleNavBar }><img className='nav-icon' src={Icon}/></div> 
     <div className={`nav-content expanded-${expanded}`}>
       <div className='nav-links'>
         <Link to="/" onClick={ toggleNavBar }>Home</Link>

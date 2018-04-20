@@ -9,7 +9,7 @@ body {
   background-color: black;
   margin: 0px;
   position: fixed;
-  z-index: 3;
+  z-index: 4;
 }
 
 .base-layout {
@@ -33,14 +33,11 @@ body {
   justify-content: center;
 }
 
-.material-icons {
-  height: 6vh;
-  width: 6vw;
-  color: white;
-  position: absolute;
-  z-index: 4;
+.nav-icon {
+  padding: 0.5vh 0 0 1vh;
+  filter: invert(100%);
+  z-index: 5;
 }
-
 
 .nav-content a {
   color: white;
@@ -106,6 +103,7 @@ body {
 
 .visible-true {
   background: rgba(0, 0, 0, 0.8);
+  z-index: 3;
 }
 
 .visible-false {
